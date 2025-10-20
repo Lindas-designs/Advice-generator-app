@@ -79,6 +79,7 @@ body {
   transform: translate(-50%, -50%);
   transition: box-shadow 0.3s ease-in-out;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .dice-button:hover {
   box-shadow: 0 0 2rem 1rem hsla(150, 100%, 66%, 0.5);
