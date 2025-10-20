@@ -98,25 +98,3 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-/* ### Body Copy */
-/* - Font size (quote): 28px */
-
-/* Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible. 
-Your users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
-
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
-
-//TO DO
-// Javascript
-//Media queries
-*/
