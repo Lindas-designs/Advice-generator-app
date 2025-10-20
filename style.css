@@ -61,10 +61,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.divider {
+  max-width: 90%;
+}
 .dice-button {
   border: none;
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
   background-color: var(--green-300);
   display: flex;
@@ -86,8 +89,8 @@ body {
 
 .dice-img {
   background-color: var(--green-300);
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
 }
 .attribution {
   position: fixed;
