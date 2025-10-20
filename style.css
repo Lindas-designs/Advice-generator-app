@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+*:focus-visible {
+  box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.5rem var(--green-400);
+}
+:root {
+  /* ### Primary */
+  --blue-200: hsl(193, 38%, 86%);
+  --green-300: hsl(150, 100%, 66%);
+  --green-350: hsl(150, 90%, 50%);
+
+  /* ### Neutral */
+  --blue-600: hsl(217, 19%, 38%);
+  --blue-900: hsl(217, 19%, 24%);
+  --blue-950: hsl(218, 23%, 16%);
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 800;
+}
+body {
+  background-color: var(--blue-950);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container {
+  background-color: var(--blue-900);
+  height: 30rem;
+  position: relative;
+  width: 30%;
+  border-radius: 1rem;
+}
+.advice-container {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.advice-number {
+  color: var(--green-300);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.advice-text {
+  font-size: 2.8rem;
+  color: var(--blue-200);
+  text-align: center;
+}
+.dice-button {
+  border: none;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: var(--green-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.dice-button:hover {
+  box-shadow: 0 0 2rem 1rem hsla(150, 100%, 66%, 0.5);
+}
+.dice-button:active {
+  box-shadow: none;
+  background-color: var(--green-350);
+}
+
+.dice-img {
+  background-color: var(--green-300);
+  height: 2rem;
+  width: 2rem;
+}
+.attribution {
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* ### Body Copy */
+/* - Font size (quote): 28px */
+
+/* Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible. 
+Your users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+*/
