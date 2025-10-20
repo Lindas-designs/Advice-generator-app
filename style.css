@@ -32,9 +32,9 @@ body {
 }
 .main-container {
   background-color: var(--blue-900);
-  height: 30rem;
+  height: 35rem;
   position: relative;
-  width: 30%;
+  width: 35%;
   border-radius: 1rem;
 }
 .advice-container {
@@ -53,8 +53,13 @@ body {
 }
 .advice-text {
   font-size: 2.8rem;
+  width: 90%;
+  height: 45%;
   color: var(--blue-200);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .dice-button {
   border: none;
@@ -69,6 +74,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
 }
 .dice-button:hover {
   box-shadow: 0 0 2rem 1rem hsla(150, 100%, 66%, 0.5);
@@ -109,4 +115,8 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+//TO DO
+// Javascript
+//Media queries
 */
